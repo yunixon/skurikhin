@@ -3,5 +3,5 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+products = Product.create([{ name: 'Book 1' }, { name: 'Book 2' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
