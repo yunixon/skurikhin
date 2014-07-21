@@ -1,9 +1,10 @@
 <h1>Listing products</h1>
 
 <table border="1">
-<% @products.each do |product| %>
   <tr>
     <th>Products</th>
+  </tr>
+<% @products.each do |product| %>  
   <tr>  
     <td><%= product.name %></td>
   </tr>
