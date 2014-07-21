@@ -1,7 +1,9 @@
 <h1>Listing products</h1>
 
-<table>
+<table border="1">
 <% @products.each do |product| %>
+  <tr>
+    <th>Products</th>
   <tr>  
     <td><%= product.name %></td>
   </tr>
